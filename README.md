@@ -61,20 +61,45 @@ Dotsocials is a social media API built using Django and Django Rest Framework. I
 4. Use the API at `http://localhost:8000/`.
 
 ## API Endpoints
-
+```
 - POST api/v1/users/register (user-register)
+```
+```
 - GET/PUT/DELETE api/v1/userprofiles/<pk> (user-profile-detail)
+```
+```
 - GET/POST api/v1/post/ (post-list)
+```
+```
 - GET/PUT/DELETE api/v1/post/<pk> (post-detail)
+```
+```
 - GET/POST api/v1/like (like-list)
+```
+```
 - GET/PUT/DELETE api/v1/like/<pk> (like-detail)
+```
+```
 - GET/POST api/v1/redot (redot-list)
+```
+```
 - GET/PUT/DELETE api/v1/redot/<pk> (redot-detail)
+```
+```
 - GET/POST api/v1/comment (comment-list)
+```
+```
 - GET/PUT/DELETE api/v1/comment/<pk> (comment-detail)
+```
+```
 - GET api/v1/ (api-root)
+```
+```
 - POST api/token/ (token_obtain_pair)
+```
+```
 - POST api/token/refresh/ (token_refresh)
+```
 
 
 ## Contributing
